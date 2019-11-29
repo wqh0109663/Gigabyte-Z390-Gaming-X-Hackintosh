@@ -237,20 +237,6 @@
 					oAqRCv8L//8=
 					</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Fix AsRock Z390 BIOS DSDT Device(RTC) bug</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					oAqTU1RBUwE=
-					</data>
-					<key>Replace</key>
-					<data>
-					oAqRCv8L//8=
-					</data>
-				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -342,10 +328,15 @@
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
+		<key>FakeID</key>
+		<dict>
+			<key>IntelGFX</key>
+			<string>0x59128086</string>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<true/>
+			<false/>
 			<key>FixOwnership</key>
 			<true/>
 			<key>HighCurrent</key>
@@ -389,8 +380,6 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Boot</string>
 	</dict>
@@ -406,7 +395,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<false/>
+			<true/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -415,7 +404,7 @@
 		<key>RadeonDeInit</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x3E9B0007</string>
+		<string>0x59120003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -575,7 +564,7 @@
 		<string>C02032110R5DC771H</string>
 		<key>ROM</key>
 		<data>
-		xsBmjod3
+		5eg6J5LC
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -591,7 +580,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02910303GUJ0PGAD</string>
+		<string>C02709401GUJ0PG1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -621,16 +610,16 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>C02YD01WJ1GJ</string>
+		<string>C02TC0J6J1GJ</string>
 		<key>SmUUID</key>
-		<string>D5F6FE68-BF97-4FE5-BAB0-B024A02C54DD</string>
+		<string>B334BB7A-D7E4-4791-8959-500418C52468</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>6B623B35-EFC4-41FD-8AED-068BFE565A58</string>
+		<string>CC87FCC1-CD42-4FB0-9A7B-82A6D795F0B7</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
