@@ -294,11 +294,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>agdpmod=pikera -v slide=0</string>
+		<string>agdpmod=pikera slide=0 -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>Macintosh HD</string>
+		<string>MACOS480</string>
 		<key>NeverDoRecovery</key>
 		<false/>
 		<key>NoEarlyProgress</key>
@@ -306,7 +306,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>4</integer>
+		<integer>8</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -328,15 +328,36 @@
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
-		<key>FakeID</key>
+		<key>Properties</key>
 		<dict>
-			<key>IntelGFX</key>
-			<string>0x59128086</string>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AwCYPg==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>
+				mD4AAA==
+				</data>
+				<key>device_type</key>
+				<string>Display controller</string>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 630 (Desktop 9 Series)</string>
+			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<false/>
+			<true/>
 			<key>FixOwnership</key>
 			<true/>
 			<key>HighCurrent</key>
@@ -380,6 +401,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Boot</string>
 	</dict>
@@ -395,7 +418,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -403,8 +426,6 @@
 		<false/>
 		<key>RadeonDeInit</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0x59120003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -502,7 +523,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 1 ©PMHeart</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				g/sPD4cLBAAA
@@ -520,7 +541,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 2 ©ydeng</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				g/sPD4OPBAAA
@@ -538,7 +559,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 3 ©ydeng</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				g+MP0+NBCd8=
@@ -564,7 +585,7 @@
 		<string>C02032110R5DC771H</string>
 		<key>ROM</key>
 		<data>
-		5eg6J5LC
+		WqGQt9g6
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -580,7 +601,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02709401GUJ0PG1M</string>
+		<string>C02816130GUJ0PG1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -610,16 +631,16 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>C02TC0J6J1GJ</string>
+		<string>C02WL001J1GJ</string>
 		<key>SmUUID</key>
-		<string>B334BB7A-D7E4-4791-8959-500418C52468</string>
+		<string>0AB62887-F2AA-415E-8175-AA04FCB7D83A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>CC87FCC1-CD42-4FB0-9A7B-82A6D795F0B7</string>
+		<string>D1EF14E5-8456-47B7-9091-0BBE2FAE6A0E</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
