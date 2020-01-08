@@ -12,8 +12,13 @@
 
 ## 长期更新
 ## 2020-1-8更新
-使用一段时间后重装为10.14.3版本（没办法，轻微强迫症，看到一些地方不正常就想改），目前基本已经全部完美,测试可以硬件加速（使用videoproc测试，和vdadecoderchecker测试），也能打开finalcutpro，没闪退。一切运行正常
+使用一段时间后重装为10.14.3版本（没办法，轻微强迫症，看到一些地方不正常就想改），目前基本已经全部完美,测试可以硬件加速（使用videoproc测试，和vdadecoderchecker测试），也能打开finalcutpro，没闪退。一切运行正常  
+![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-07%20%E4%B8%8B%E5%8D%8810.31.45.png](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-07%20%E4%B8%8B%E5%8D%8810.31.45.png)
+![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-07%20%E4%B8%8B%E5%8D%8811.40.59.png](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-07%20%E4%B8%8B%E5%8D%8811.40.59.png)
+![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-08%20%E4%B8%8B%E5%8D%8810.35.42.png](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-08%20%E4%B8%8B%E5%8D%8810.35.42.png)
 ### 安装方法
+1. 下载链接
+https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/10.14/macOS%20Mojave%2010.14.3%2818D42%29%20Installer%20with%20Clover%204859.dmg
 1. bios设置
 在bios按照 Windows 8/10 设置为other，csm support 设置为disable，secure boot设置为disabled，peripherals里面 initial display 设置为pcie 1 slot，power 里面erp设置为enabled，然后把internal graphics设置为enabled，然后就是超频的设置，看你个人喜好了，我是cpu设置的47，然后内存条是2666，打开xmp，然后核显使用256M(dvmt pre allocated 256M)，截图的话，screenshot文件夹下有部分，唯一不同的只有我这个版本把核显预分配设置为了256M
 2. 安装前的准备
