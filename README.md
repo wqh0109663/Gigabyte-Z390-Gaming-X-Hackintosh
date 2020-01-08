@@ -5,11 +5,26 @@
 | 主板 | 技嘉z390 gaming x |
 | CPU | i5 9600K |
 | 显卡 | RX 590 |
-| 内存 | 复仇者 2666 *2 |
+| 内存 | 海盗船复仇者 2666 *2 |
 | 无线网卡、蓝牙 | BCM94360CD |
 | 固态 | 金士顿480G |
-| 电源 | 振华 LG650W全模组 |
+| 电源 | 振华 LG650W全模组 |  
+
 ## 长期更新
+## 2020-1-8更新
+使用一段时间后重装为10.14.3版本（没办法，轻微强迫症，看到一些地方不正常就想改），目前基本已经全部完美,测试可以硬件加速（使用videoproc测试，和vdadecoderchecker测试），也能打开finalcutpro，没闪退。一切运行正常
+### 安装方法
+1. bios设置
+在bios按照 Windows 8/10 设置为other，csm support 设置为disable，secure boot设置为disabled，peripherals里面 initial display 设置为pcie 1 slot，power 里面erp设置为enabled，然后把internal graphics设置为enabled，然后就是超频的设置，看你个人喜好了，我是cpu设置的47，然后内存条是2666，打开xmp，然后核显使用256M(dvmt pre allocated 256M)，截图的话，screenshot文件夹下有部分，唯一不同的只有我这个版本把核显预分配设置为了256M
+2. 安装前的准备
+下载10.14.3（我使用的是小兵的镜像文件），制作u盘启动盘（16G），于drivers64UEFI目录中移除AptioMemoryFix-64.efi添加OsxAptioFix2Drv-free2000.efi该驱动位于/EFI/CLOVER/drivers-off目录下，格式化固态硬盘
+3. 安装
+磁盘工具抹掉硬盘之后，直接选择终端，在终端中输入 date 0201010116,后面毫无阻碍
+4. 或者就是直接使用另一个大白菜u盘直接替换掉u盘中的efi文件夹
+5. 更换机型和序列号
+--------
+
+
 声明：修改序列号，避免发生冲突
 当前版本是10.15.2 (19C57)，历史版本自己下
 ## screen shot
@@ -18,4 +33,3 @@ BIOS设置自己去看screen shot文件夹
 ![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/Screen%20Shot%202019-11-28%20at%2021.15.26.png](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/Screen%20Shot%202019-11-28%20at%2021.15.26.png)
 ![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/Screen%20Shot%202019-11-28%20at%2021.15.44.png](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/Screen%20Shot%202019-11-28%20at%2021.15.44.png)
 ![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/Screen%20Shot%202019-11-28%20at%2021.17.10.png](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/Screen%20Shot%202019-11-28%20at%2021.17.10.png)
-
