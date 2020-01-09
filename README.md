@@ -27,8 +27,9 @@ https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/10.14/macOS%20Mojave%2010.14.
 磁盘工具抹掉硬盘之后，直接选择终端，在终端中输入 date 0201010116,后面毫无阻碍
 4. 或者就是直接使用另一个大白菜u盘直接替换掉u盘中的efi文件夹
 5. 更换机型和序列号
+6. 中途可能会遇到panic，重启就好，建议多存几分config，如果突然启动不了了，可以有其他config可以选择，或者是如果自己打补丁，进不了系统的，可以考虑使用u盘引导进入，实在不行，使用大白菜diskgenius直接修改efi文件夹中的内容
 6. 装好之后请我吃包辣条自然是极好的
-![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/IMG_0524.JPG](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/IMG_0524.JPG)
+![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/IMG_0524.JPG](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/IMG_0524.JPG =200px)
 --------
 
 
