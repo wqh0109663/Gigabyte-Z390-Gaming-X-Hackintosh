@@ -28,7 +28,7 @@ https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/10.14/macOS%20Mojave%2010.14.
 4. 或者就是直接使用另一个大白菜u盘直接替换掉u盘中的efi文件夹
 5. 更换机型和序列号
 6. 中途可能会遇到panic，重启就好，建议多存几分config，如果突然启动不了了，可以有其他config可以选择，或者是如果自己打补丁，进不了系统的，可以考虑使用u盘引导进入，实在不行，使用大白菜diskgenius直接修改efi文件夹中的内容
-
+-----
 
 
 声明：修改序列号，避免发生冲突
