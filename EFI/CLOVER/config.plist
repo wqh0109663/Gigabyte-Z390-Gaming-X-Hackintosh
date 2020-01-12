@@ -299,7 +299,7 @@
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>macOSWDC</string>
 		<key>Legacy</key>
 		<string>LegacyBiosDefault</string>
 		<key>Log</key>
@@ -472,6 +472,13 @@
 				</dict>
 			</array>
 		</dict>
+		<key>Hide</key>
+		<array>
+			<string>Windows</string>
+			<string>Preboot</string>
+		</array>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -488,8 +495,10 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Hackintosh_ID</string>
+		<string>Boot</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
