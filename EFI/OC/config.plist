@@ -16,9 +16,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC.aml</string>
+				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 				<key>Path</key>
-				<string>SSDT-EC.aml</string>
+				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -40,9 +40,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-USBX.aml</string>
+				<string>SSDT-RHUB.aml</string>
 				<key>Path</key>
-				<string>SSDT-USBX.aml</string>
+				<string>SSDT-RHUB.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -208,30 +208,11 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>layout-id</key>
-				<data>AQAAAA==</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwCSPg==</data>
 			</dict>
-		</dict>
-		<key>Block</key>
-		<dict/>
-		<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-		<dict>
-			<key>AAPL,ig-platform-id</key>
-			<data>BwCbPg==</data>
-			<key>framebuffer-patch-enable</key>
-			<data>AQAAAA==</data>
-			<key>framebuffer-con0-enable</key>
-			<data>AQAAAA==</data>
-			<key>framebuffer-con2-enable</key>
-			<data>AQAAAA==</data>
-			<key>framebuffer-con0-alldata</key>
-			<data>AQAJAAAIAADHAwAA</data>
-			<key>framebuffer-con1-alldata</key>
-			<data>AgAKAAAIAADHAwAA</data>
-			<key>framebuffer-con2-alldata</key>
-			<data>AwQIAAAIAADHAwAA</data>
 		</dict>
 	</dict>
 	<key>Kernel</key>
