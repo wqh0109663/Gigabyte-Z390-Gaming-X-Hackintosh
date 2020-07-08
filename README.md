@@ -11,6 +11,8 @@
 | 电源 | 振华 LG650W全模组 |  
 
 ## 长期更新
+## 2020-6
+最新版使用oc引导，知道如何将CFG关闭的，可以直接使用我的，不知道如何关闭的，修改AppleCpuPmCfgLock，AppleXcpmCfgLock，参考地方为: https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html
 ## 2020-1-8更新
 使用一段时间后重装为10.14.3版本（没办法，轻微强迫症，看到一些地方不正常就想改），目前基本已经全部完美,测试可以硬件加速（使用videoproc测试，和vdadecoderchecker测试），也能打开finalcutpro，没闪退。一切运行正常  
 ![https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-07%20%E4%B8%8B%E5%8D%8810.31.45.png](https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh/blob/master/screen%20shot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-07%20%E4%B8%8B%E5%8D%8810.31.45.png)
