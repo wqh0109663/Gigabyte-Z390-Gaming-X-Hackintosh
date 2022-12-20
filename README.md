@@ -5,12 +5,16 @@
 | 主板 | 技嘉z390 gaming x |
 | CPU | i5 9600K |
 | 显卡 | RX 590 |
-| 内存 | 海盗船复仇者 2666 *2 |
+| 显卡新202212-矿 | 5600xt 迪兰战神 |
+| 内存 | 海盗船复仇者 2666 *4 |
 | 无线网卡、蓝牙 | BCM94360CD |
 | 固态 | 金士顿480G |
 | 电源 | 振华 LG650W全模组 |  
 
 ## 长期更新
+## 2022-11
+版本10.15.7
+老版本oc的情况下更新，修改5600xt，boot参数，具体内容在release
 ## 2020-6
 最新版使用oc引导，知道如何将CFG关闭的，可以直接使用我的，不知道如何关闭的，修改AppleCpuPmCfgLock，AppleXcpmCfgLock，参考地方为: https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html
 ## 2020-1-8更新
